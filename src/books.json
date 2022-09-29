@@ -1,0 +1,16 @@
+[
+    {
+        "id": "afd108ce-ebf7-41e2-95fc-a619d92aaf38",
+        "title": "Harry Potter y la piedra filosofal",
+        "author": "JK Rowling",
+        "image": "https://img.huffingtonpost.com/asset/5931bc2c2000003c00be028f.jpeg?ops=scalefit_720_noupscale",
+        "description": "Libro 1/8 "
+    },
+    {
+        "id": "745ff08c-cad9-4fc4-8af7-620d8de4f874",
+        "title": "Harry Potter y la Camara secreta",
+        "author": "JK Rowling",
+        "image": "https://unlibroparaestanoche.files.wordpress.com/2011/05/2-harry-potter-y-la-camara-secreta.jpg",
+        "description": "Libro 2/8"
+    }
+]

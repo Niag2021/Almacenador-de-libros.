@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/header') %>
+    <title>Ingreso de libro.</title>
+</head>
+<body>
+
+    <%- include('partials/navigation.ejs') %> 
+    
+    <div class="container p-4">
+        <form method="POST" action="/new-entry" class="card card body">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" name="title" id="title" placeholder="Entry a new title" autofocus required>
+            </div>
+            <div class="form-group">
+                <label for="author">Author</label>
+                <input type="text" class="form-control" name="author" id="author" placeholder="Author" required>
+            </div>
+            <div class="form-group">
+                <label for="image">Image</label>
+                <input type="text" class="form-control" name="image" id="image" placeholder="http://website.com" required>
+            </div>
+            <div class="form-group">
+                <label for="descripcion">Descripcion</label>
+                <textarea name="description" id="description" rows="2" class="form-crontrol" required></textarea>
+            </div>
+            <input type="submit" value="Sabe Book" class="btn btn-primary">
+        </form>
+    </div>    
+</body>
+</html>
